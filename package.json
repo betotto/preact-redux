@@ -1,0 +1,37 @@
+{
+  "name": "flow-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint src",
+    "build:prod": "NODE_ENV=production webpack --mode=production",
+    "build:dev": "NODE_ENV=development webpack --mode=development",
+    "start:dev": "NODE_ENV=development webpack-dev-server --mode=development"
+  },
+  "keywords": [],
+  "author": "betotto",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-react-jsx": "^7.9.4",
+    "@babel/preset-env": "^7.9.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-preact": "^1.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsdoc": "^22.1.0",
+    "preact": "^10.3.4",
+    "ramda": "^0.27.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "source-map-loader": "^0.2.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
